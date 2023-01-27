@@ -1,0 +1,15 @@
+body {
+    background: rgb(253, 225, 225);
+    font-family: papyrus;
+    margin: 100px;
+    padding: 50px;
+}
+
+h1, p {
+    color: #fff;
+}
+
+img {
+    border-radius: 20px;
+    border: 8px dotted white;
+}
