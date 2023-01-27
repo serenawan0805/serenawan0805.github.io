@@ -1,15 +1,21 @@
 body {
     background: rgb(253, 225, 225);
     font-family: papyrus;
-    margin: 100px;
-    padding: 50px;
 }
 
 h1, p {
     color: #fff;
+    text-align: center;
 }
 
 img {
     border-radius: 20px;
     border: 8px dotted white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
