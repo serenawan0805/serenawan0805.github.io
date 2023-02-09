@@ -30,17 +30,6 @@ h2 {
     font-size: 200%;
     line-height: 0;
     padding-top: 3%;
-    padding-bottom: 1%;
-}
-
-h3 {
-    position: flex;
-    color: #fff;
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-    font-size: 150%;
-    line-height: 0;
-    padding-top: 1%;
     padding-bottom: 2%;
 }
 
@@ -81,5 +70,5 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;  
+    width: 45%;  
 }

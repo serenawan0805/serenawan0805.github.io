@@ -4,8 +4,6 @@
 }
 
 body {
-    width: 93%;
-    height: 85vh;
     background: rgb(253, 225, 225);
     border: white 10px dotted;
     border-radius: 20px;
@@ -22,34 +20,13 @@ h1 {
     padding-top: 3%;
 }
 
-h2 {
-    position: flex;
-    color: #fff;
-    text-align: center;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 200%;
-    line-height: 0;
-    padding-top: 3%;
-    padding-bottom: 1%;
-}
-
-h3 {
-    position: flex;
-    color: #fff;
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-    font-size: 150%;
-    line-height: 0;
-    padding-top: 1%;
-    padding-bottom: 2%;
-}
-
 .tabs {
     align-items: center;
     text-align: center;
     font-size: 150%;
     font-weight: bold;
     margin-bottom: 1%;
+    margin-top: 3%;
 }
 
 .tabs li {
@@ -81,5 +58,49 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;  
+    width: 75%;  
 }
+
+.projects {
+    font-family: 'Montserrat Alternates', sans-serif;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    color: #fff;
+}
+
+.projects li {
+    font-size: 200%;
+    display: inline;
+}
+
+.projects p {
+    font-family: 'Poiret One', cursive;
+    font-size: 175%;
+}
+
+.projects li a {
+    margin: 1%;
+    padding: .5%;
+    font-size: 75%;
+    color: #fff;
+    border: 2.5px dotted white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.25s ease-in-out;
+    font-family: 'Poiret One', cursive;
+}
+
+.projects li a:hover {
+    background-color: rgba(255, 255, 255, 0.30);
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
