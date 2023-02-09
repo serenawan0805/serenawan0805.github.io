@@ -11,6 +11,8 @@ body {
 }
 
 h1 {
+    position: flex;
+    left: 50%;
     color: #fff;
     text-align: center;
     font-family: 'Sofia', cursive;
@@ -19,39 +21,28 @@ h1 {
     padding-top: 3%;
 }
 
-p {
+h2 {
+    position: flex;
+    left: 50%;
     color: #fff;
     text-align: center;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 200%;
-    padding-top: 2.5%;
+    line-height: 0;
+    padding-top: 3%;
+    padding-bottom: 1%;
 }
 
-.tabs {
-    align-items: center;
-    text-align: center;
-    font-size: 150%;
-    font-weight: bold;
-    margin-bottom: 1%;
-}
-
-.tabs li {
-    font-family: 'Poiret One', cursive;
-    display: inline;
-}
-
-.tabs a {
-    margin: 1%;
-    padding: .5%;
+h3 {
+    position: flex;
+    left: 50%;
     color: #fff;
-    border: 2.5px dotted white;
-    text-decoration: none;
-    border-radius: 20px;
-    transition: 0.25s ease-in-out;
-}
-
-.tabs a:hover {
-    background-color: rgba(255, 255, 255, 0.30);
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 150%;
+    line-height: 0;
+    padding-top: 1%;
+    padding-bottom: 2%;
 }
 
 img {
@@ -64,5 +55,5 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 43.25%;  
+    width: 30%;  
 }
