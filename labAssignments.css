@@ -39,6 +39,7 @@ h2 {
     font-size: 150%;
     font-weight: bold;
     margin-bottom: 1%;
+    margin-top: 3%;
 }
 
 .tabs li {
@@ -70,5 +71,50 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;  
+    width: 70%;  
 }
+
+
+.projects {
+    font-family: 'Montserrat Alternates', sans-serif;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    color: #fff;
+}
+
+.projects li {
+    font-size: 200%;
+    display: inline;
+}
+
+.projects p {
+    font-family: 'Poiret One', cursive;
+    font-size: 175%;
+}
+
+.projects a {
+    margin: 1%;
+    padding: .5%;
+    font-size: 75%;
+    color: #fff;
+    border: 2.5px dotted white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.25s ease-in-out;
+    font-family: 'Poiret One', cursive;
+}
+
+.projects a:hover {
+    background-color: rgba(255, 255, 255, 0.30);
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
