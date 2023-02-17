@@ -5,13 +5,13 @@
 
 body {
     background: rgb(253, 225, 225);
-    border: white 10px dotted;
+    border: rgb(0, 0, 0) 10px dotted;
     border-radius: 20px;
     padding: 2.5%
 }
 
 h1 {
-    color: #fff;
+    color: #000000;
     text-align: center;
     font-family: 'Sofia', cursive;
     font-size: 300%;
@@ -20,7 +20,7 @@ h1 {
 }
 
 p {
-    color: #fff;
+    color: #000000;
     text-align: center;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 200%;
@@ -43,21 +43,21 @@ p {
 .tabs a {
     margin: 1%;
     padding: .5%;
-    color: #fff;
-    border: 2.5px dotted white;
+    color: #000000;
+    border: 2.5px dotted rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 20px;
     transition: 0.25s ease-in-out;
 }
 
 .tabs a:hover {
-    background-color: rgba(255, 255, 255, 0.30);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 img {
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    border: 5px dotted white;
+    border: 5px dotted rgb(0, 0, 0);
 }
 
 .center {

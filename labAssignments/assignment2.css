@@ -1,0 +1,93 @@
+* {
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.content {
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    visibility: hidden;
+}
+
+.top {
+    line-height: 75%;
+    font-size: 650%;
+    display: block;
+}
+
+.middle {
+    line-height: 75%;
+    font-size: 650%;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+}
+
+.greenBox {
+    position: absolute;
+    top: 37%;
+    left: 39%;
+    width: 315px;
+    height: 190px;
+    background: radial-gradient(circle, rgba(181,181,31,1) 7%, rgba(109,167,62,1) 26%, rgba(49,118,49,1) 66%, rgba(27,73,27,1) 82%, rgba(0,0,0,1) 100%);
+    /* background: radial-gradient(circle, rgba(181,181,31,1) 7%, rgba(109,167,62,1) 26%, rgba(49,118,49,1) 66%, rgba(27,73,27,1) 82%, rgba(0,0,0,1) 100%); */
+}
+
+.grainBox {
+    position: absolute;
+    top: 37%;
+    left: 39%;
+    width: 315px;
+    height: 190px;
+    background: url(https://grainy-gradients.vercel.app/noise.svg);
+    opacity: 70%;
+}
+
+.layer {
+    position: absolute;
+    top: 37%;
+    left: 39%;
+    width: 315px;
+    height: 190px;
+    background: rgb(8, 52, 8);
+    opacity: 30%;
+}
+
+
+.bottom {
+    line-height: 75%;
+    font-size: 650%;
+}
+
+.foot {
+    font-size: 150%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot .left {
+    font-weight: 100;
+}
+
+.foot .center {
+    font-weight: 900;
+}
+
+.foot .right {
+    font-weight: 100;
+}
+
+.box:hover .content {
+    visibility: visible;
+  }
