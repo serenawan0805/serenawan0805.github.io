@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     align-content: space-between;
     justify-content: space-between;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .top {
