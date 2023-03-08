@@ -1,0 +1,62 @@
+* {
+    padding: 0.25%;
+    margin: 0.25%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(253, 225, 225);
+    border: white 10px dotted;
+    border-radius: 20px;
+    padding: 2.5%
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: enlargeAndColor 2s infinite,
+    move 2s infinite;
+}
+
+@keyframes enlargeAndColor {
+    from {
+        transform: scale(1);
+        color: black;
+    }
+    to {
+        transform: scale(1.5);
+        color: white;
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0);
+    }
+    10% {
+        transform: translate(0, -50px);
+    }
+    20% {
+        transform: translate(0);
+    }
+    30% {
+        transform: translate(0, 50px);
+    }
+    40% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(-50px, 0);
+    }
+    60% {
+        transform: translate(0);
+    }
+    70% {
+        transform: translate(50px, 0);
+    }
+    80% {
+        transform: translate(0);
+    }
+}
