@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+/* 
+Fancy - 
+font-family: 'EB Garamond', serif;
+
+Normal - 
+font-family: 'Montserrat', sans-serif;
+*/
+
+body {
+    padding: 7%;
+    overflow-x: hidden;
+}
+
+nav {
+    display: inline-flex;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 55%;
+    /* border: red 5px dotted; */
+    width: 500px;
+    /* font-weight: bold; */
+    width: 2050px;
+}
+
+.navbar li {
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+}
+
+.navbar a {
+    color: #aaaaaa;
+    text-decoration: none;
+    padding-right: 20px;
+    /* justify-content: space-between; */
+}
+
+.navbar a:hover {
+    color: #000000;
+}
+
+.logo img{
+    width: 7%;
+}
+
+header {
+    width: 500px;
+    /* border: red 5px dotted; */
+    margin-top: 9%;
+    margin-bottom:4%;
+    padding-left: 2.5%;
+    color: #2a2a2a;
+}
+
+header h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight:lighter;
+}
+
+.images {
+    display: flex;
+    position: row;
+    justify-content: space-between;
+    /* border: red 5px solid; */
+}
+
+.images img {
+    width: 28%;
+    margin-top: 8%;
+}
+
+.images img:hover {
+    opacity: 10%;
+    transition: ease-in-out .25s;
+}
+
+.images .blankImage {
+    width: 25%;
+}
+
+footer {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer h1 {
+    font-size: 85%;
+    font-weight: 300;
+}
+
+footer p {
+    font-size: 85%;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+footer .middle h1 a{
+    text-decoration: none;
+    color:#aaaaaa;
+}
+
+footer .middle h1 a:hover{
+    text-decoration: underline;
+}
+
+footer .right li{
+    display: inline;
+    font-size: 75%;
+}
