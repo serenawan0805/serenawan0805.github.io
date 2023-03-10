@@ -93,6 +93,7 @@ img {
 .projects p {
     font-family: 'Poiret One', cursive;
     font-size: 175%;
+    margin: 1%;
 }
 
 .projects a {
