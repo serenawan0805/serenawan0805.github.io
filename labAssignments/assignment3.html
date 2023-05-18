@@ -6,6 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assignment3.css">
     <title>Assignment 3: Responsive Web Layout</title>
+    <style>
+        /* Add your responsive CSS styles here */
+
+        /* Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Introduction */
+        header {
+            text-align: center;
+        }
+
+        /* Content - pictures */
+        .allImages {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+            gap: 20px;
+            justify-items: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .images img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            /* Adjust styles for tablets and smaller screens */
+
+            /* Navbar */
+            .navbar ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            /* Adjust styles for mobile devices */
+
+            /* Introduction */
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
 </head>
 <body>
 
