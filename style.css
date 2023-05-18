@@ -66,3 +66,47 @@ img {
     margin-right: auto;
     width: 43.25%;  
 }
+
+@media (max-width: 768px) {
+    /* Adjust styles for tablets and smaller screens */
+
+    h1 {
+        font-size: 250%;
+    }
+
+    p {
+        font-size: 150%;
+    }
+
+    .tabs {
+        font-size: 120%;
+    }
+
+    img.center {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust styles for mobile devices */
+
+    body {
+        padding: 2%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    p {
+        font-size: 120%;
+    }
+
+    .tabs {
+        font-size: 100%;
+    }
+
+    img.center {
+        width: 90%;
+    }
+}

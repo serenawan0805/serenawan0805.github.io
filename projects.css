@@ -104,3 +104,40 @@ img {
   .column {
     flex: 50%;
   }
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 95%;
+        height: auto;
+        padding: 1%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .tabs {
+        font-size: 125%;
+    }
+
+    .center {
+        width: 100%;
+    }
+
+    .projects li {
+        font-size: 150%;
+    }
+
+    .projects p {
+        font-size: 125%;
+    }
+
+    .projects a {
+        font-size: 100%;
+    }
+}

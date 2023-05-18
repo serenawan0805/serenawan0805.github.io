@@ -83,3 +83,61 @@ img {
     margin-right: auto;
     width: 30%;  
 }
+
+@media (max-width: 768px) {
+    /* Adjust styles for tablets and smaller screens */
+
+    h1 {
+        font-size: 200%;
+        margin: 10%;
+    }
+
+    h2 {
+        font-size: 150%;
+        margin: 10%;
+    }
+
+    h3 {
+        font-size: 120%;
+        margin: 10%;
+    }
+
+    .tabs {
+        font-size: 120%;
+        margin: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust styles for mobile devices */
+
+    body {
+        width: 90%;
+        
+    }
+
+    h1 {
+        font-size: 150%;
+        margin: 5%;
+    }
+
+    h2 {
+        font-size: 120%;
+        margin: 5%;
+    }
+
+    h3 {
+        font-size: 100%;
+        margin: 5%;
+    }
+
+    .tabs {
+        font-size: 100%;
+        margin: 5%;
+    }
+
+    img.center {
+        width: 60%;
+        margin: 5%;
+    }
+}

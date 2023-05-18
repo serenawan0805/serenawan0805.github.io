@@ -8,6 +8,174 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Poiret+One&family=Sofia&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="labAssignments.css">
+    <style>
+        * {
+            padding: 0.25%;
+            margin: 0.25%;
+        }
+        
+        body {
+            width: 93%;
+            height: 85vh;
+            background: rgb(253, 225, 225);
+            border: white 10px dotted;
+            border-radius: 20px;
+            padding: 2.5%;
+        }
+        
+        h1 {
+            position: flex;
+            color: #fff;
+            text-align: center;
+            font-family: 'Sofia', cursive;
+            font-size: 300%;
+            line-height: 0;
+            padding-top: 3%;
+        }
+        
+        h2 {
+            position: flex;
+            color: #fff;
+            text-align: center;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 200%;
+            line-height: 0;
+            padding-top: 3%;
+            padding-bottom: 2%;
+        }
+        
+        .tabs {
+            align-items: center;
+            text-align: center;
+            font-size: 150%;
+            font-weight: bold;
+            margin-bottom: 1%;
+            margin-top: 3%;
+        }
+        
+        .tabs li {
+            font-family: 'Poiret One', cursive;
+            display: inline;
+        }
+        
+        .tabs a {
+            margin: 1%;
+            padding: .5%;
+            color: #fff;
+            border: 2.5px dotted white;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: 0.25s ease-in-out;
+        }
+        
+        .tabs a:hover {
+            background-color: rgba(255, 255, 255, 0.30);
+        }
+        
+        img {
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 20px;
+            border: 5px dotted white;
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;  
+        }
+        
+        .projects {
+            font-family: 'Montserrat Alternates', sans-serif;
+            align-items: center;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 1%;
+            margin-top: 1%;
+            color: #fff;
+        }
+        
+        .projects li {
+            font-size: 200%;
+            display: inline;
+        }
+        
+        .projects p {
+            font-family: 'Poiret One', cursive;
+            font-size: 175%;
+            margin: 1%;
+        }
+        
+        .projects a {
+            margin: 1%;
+            padding: .5%;
+            font-size: 75%;
+            color: #fff;
+            border: 2.5px dotted white;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: 0.25s ease-in-out;
+            font-family: 'Poiret One', cursive;
+        }
+        
+        .projects a:hover {
+            background-color: rgba(255, 255, 255, 0.30);
+        }
+        
+        .row {
+            display: flex;
+        }
+        
+        .column {
+            flex: 50%;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            body {
+                width: 95%;
+                height: auto;
+                padding: 1%;
+            }
+        
+            h1 {
+                font-size: 200%;
+            }
+        
+            h2 {
+                font-size: 150%;
+            }
+        
+            .tabs {
+                font-size: 125%;
+            }
+        
+            .center {
+                width: 100%;
+            }
+        
+            .projects li {
+                font-size: 150%;
+            }
+        
+            .projects p {
+                font-size: 125%;
+            }
+        
+            .projects a {
+                font-size: 100%;
+            }
+        
+            .row {
+                flex-wrap: wrap;
+            }
+        
+            .column {
+                flex: 100%;
+            }
+        }
+    </style>
     <title>Lab Assignments</title>
 </head>
 <body>
@@ -35,19 +203,6 @@
                     <p>In-Class Demo: <a href="In-class notes/weekSix.html">JSON Exercise</a></p>
                     <p>Assignment 3: <a href="labAssignments/assignment3.html">Responsive Web Layout</a></p>
                     <p>In-Class Demo: <a href="In-class notes/weekSeven">DOM Exercise</a></p>
-
-                    <!-- <li>Unit 2. Interaction with Data</li>
-                    <p>Project 2: Elastic Collection</p>
-                    <ul>
-                        <li><a href="">-</a></li>
-                    </ul>
-                    <br><br>
-        
-                    <li>Unit 3: Interaction with the City</li>
-                    <p>Project 3: New York City in Data</p>
-                    <ul>
-                        <li><a href="">-</a></li>
-                    </ul> -->
                 </ul>
             </div>
         </div>
